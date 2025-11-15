@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is selected when there are requests to track or ensure the quality of services provided at Coral Cloud Resorts.</description>
+    <developerName>p_16jWU0000019c5V_Service_Quality_Monitoring</developerName>
+    <genAiFunctions>
+        <functionName>securityagent__IdentifyAnomalies</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__GetSecurityMetricData</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query involves identifying anomalies in service quality, use securityagent__IdentifyAnomalies.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If there is a need to analyze security metrics, use EmployeeCopilot__GetSecurityMetricData.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jWU0000019c5V_Service_Quality_Monitoring</localDeveloperName>
+    <masterLabel>Service Quality Monitoring</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only monitor and provide insights into service quality metrics or handle feedback related to service standards. You aren&apos;t able to handle complaints or employee management directly.</scope>
+</GenAiPlugin>

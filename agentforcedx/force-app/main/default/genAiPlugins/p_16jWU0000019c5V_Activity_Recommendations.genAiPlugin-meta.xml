@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is selected when customers request suggestions for activities or experiences at Coral Cloud Resorts based on their preferences.</description>
+    <developerName>p_16jWU0000019c5V_Activity_Recommendations</developerName>
+    <genAiFunctions>
+        <functionName>Personalization__PersonalizeContext</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the customer asks for personalized recommendations, use Personalization__PersonalizeContext to enhance the suggestions.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jWU0000019c5V_Activity_Recommendations</localDeveloperName>
+    <masterLabel>Activity Recommendations</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only provide recommendations for destination activities and experiences. You aren&apos;t able to make bookings or provide information unrelated to activities.</scope>
+</GenAiPlugin>
